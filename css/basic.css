@@ -50,3 +50,25 @@
   color: white;
   background: skyblue;
 }
+.container3 :nth-child(1) {
+  font-size: 30px;
+  color: white;
+  background: red;
+ 
+}
+.container3 :nth-child(2) {
+  font-size: 30px;
+  color: white;
+  background: green;
+}
+.container3 :nth-child(3) {
+  font-size: 30px;
+  color: white;
+  background: orange;
+}
+.container3 :nth-child(4) {
+  font-size: 30px;
+  color: white;
+  background: skyblue;
+}
+

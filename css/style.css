@@ -26,3 +26,26 @@
     grid-column: 1 / -1;
     /* grid-column: 1 / span 2; */
 }
+.container3{
+    height:100%;
+    display:grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "m c c c c c c c c c c c"
+        "f f f f f f f f f f f f";
+}
+.header2{
+    grid-area: h;
+}
+.menu2{
+    grid-area: m;
+}
+.content2{
+    grid-area: c;
+}
+.footer2{
+    grid-area: f;
+}
