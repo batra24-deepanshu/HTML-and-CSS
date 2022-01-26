@@ -1,0 +1,18 @@
+.container :nth-child(1){
+    background: red;
+}
+.container :nth-child(2){
+    background: blue;
+}
+.container :nth-child(3){
+    background: yellow;
+}
+.container :nth-child(4){
+    background: orange;
+}
+.container :nth-child(5){
+    background: green;
+}
+.container :nth-child(6){
+    background: skyblue;
+}
